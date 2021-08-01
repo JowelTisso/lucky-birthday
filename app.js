@@ -4,6 +4,7 @@ const btnCheck = document.querySelector(".btn");
 const outputDiv = document.querySelector(".container-output");
 const successImg = document.querySelector(".success-img");
 const failureImg = document.querySelector(".failure-img");
+const btnClear = document.querySelector(".btn-clear");
 
 const clickHandler = () => {
   const doB = dateInput.value;
@@ -64,5 +65,9 @@ const showErroMsg = (msg) => {
   failureImg.style.display = "none";
   showMsg(msg);
 };
+
+btnClear.addEventListener("click", () => {
+  outputDiv.innerHTML = "";
+});
 
 btnCheck.addEventListener("click", clickHandler);
