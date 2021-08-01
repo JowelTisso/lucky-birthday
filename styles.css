@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital@1&display=swap");
+
+:root {
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #d97706;
+  --primary-text-color: #4b5563;
+  --secondary-text-color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: "Georama", sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  min-height: 700px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container-input {
+  height: 242px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.container-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+/* Text */
+.heading {
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+p {
+  font-weight: bold;
+  color: var(--primary-text-color);
+}
+
+/* Input */
+
+.input {
+  width: 185px;
+  height: 52px;
+  position: absolute;
+  margin-right: 8px;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  color: var(--primary-text-color);
+}
+
+.input-date {
+  border: 0px;
+  top: 160px;
+}
+
+.input-lucky-num {
+  width: 190px;
+  top: 260px;
+  border: 5px solid #d1d5db;
+}
+
+/* Image */
+.header-img {
+  height: 100px;
+  width: 100px;
+}
+
+.input-bg-img {
+  width: 400px;
+  margin-left: 10rem;
+}
+
+.success-img {
+  display: none;
+  width: 170px;
+  height: 170px;
+}
+
+.failure-img {
+  display: none;
+  width: 170px;
+  height: 170px;
+}
+
+/* Button */
+
+.btn {
+  border: 0;
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
