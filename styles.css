@@ -69,7 +69,7 @@ p {
 /* Input */
 
 .input {
-  width: 185px;
+  width: 186px;
   height: 52px;
   position: absolute;
   margin-right: 8px;
@@ -81,7 +81,7 @@ p {
 
 .input-date {
   border: 0px;
-  top: 160px;
+  top: 161px;
 }
 
 .input-lucky-num {
